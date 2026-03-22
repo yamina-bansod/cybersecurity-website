@@ -1,187 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cybersecurity Awareness</title>
+    <meta charset="UTF-8">
+    <title>Cyber Awareness | Home</title>
     <style>
-        
-        body {
-            font-family: Arial;
-            margin: 0;
-            line-height: 1.6;
-        }
-        header {
-            background: #0a0a23;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            background: #111;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 30px;
-            border-bottom: 1px solid #ccc;
-        }
-        h2 {
-            color: #0a0a23;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        .box {
-            background: #f4f4f4;
-            padding: 15px;
-            margin: 10px 0;
-        }
-        form input, form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-        }
-        form button {
-            background: #0a0a23;
-            color: white;
-            padding: 10px;
-            border: none;
-        }
-        footer {
-            background: #0a0a23;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
+        body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; background: #f4f4f4; }
+        header { background: #0a0a23; color: white; text-align: center; padding: 50px 20px; }
+        nav { background: #111; padding: 15px; text-align: center; position: sticky; top: 0; }
+        nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #007bff; }
+        .content { max-width: 1000px; margin: 30px auto; padding: 20px; background: white; border-radius: 8px; }
+        .hero-img { width: 100%; border-radius: 8px; margin-bottom: 20px; }
+        footer { background: #0a0a23; color: white; text-align: center; padding: 20px; margin-top: 50px; }
     </style>
 </head>
-
 <body>
 
 <header>
-    <h1>Cybersecurity Awareness</h1>
-    <p>Stay Safe in the Digital World</p>
+    <h1>Welcome to Cybersecurity Awareness</h1>
+    <p>Your guide to a safer digital life.</p>
 </header>
 
 <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#threats">Threats</a>
-    <a href="#tips">Safety Tips</a>
-    <a href="#laws">Cyber Laws</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="threats.html">Threats</a>
+    <a href="tips.html">Safety Tips</a>
+    <a href="laws.html">Cyber Laws</a>
 </nav>
 
-<section id="home">
-    <h2>Introduction</h2>
-    <p>Cybersecurity is the practice of protecting systems, networks, and data from digital attacks.</p>
-    <p>In today's digital world, cyber threats are increasing rapidly, making awareness very important.</p>
-</section>
-
-<section id="about">
-    <h2>About Cybersecurity</h2>
-    <p>Cybersecurity involves protecting computers, mobile devices, servers, and networks from unauthorized access.</p>
-    <p>It helps in maintaining privacy, data protection, and safe online transactions.</p>
-</section>
-
-<section id="threats">
-    <h2>Common Cyber Threats</h2>
-
-    <div class="box">
-        <h3>Phishing</h3>
-        <p>Fake emails or messages to steal personal information.</p>
-    </div>
-
-    <div class="box">
-        <h3>Malware</h3>
-        <p>Harmful software designed to damage systems or steal data.</p>
-    </div>
-
-    <div class="box">
-        <h3>Hacking</h3>
-        <p>Unauthorized access to systems and networks.</p>
-    </div>
-
-</section>
-
-<section id="tips">
-    <h2>Safety Tips</h2>
+<div class="content">
+    <h2>Why Cybersecurity Matters?</h2>
+    <p>In 2026, our lives are more digital than ever. From banking to social media, everything is online. This makes us targets for hackers. This website is designed to help you understand risks and protect yourself.</p>
+    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="Cyber Security" class="hero-img">
+    <h3>Quick Navigation:</h3>
     <ul>
-        <li>Use strong passwords</li>
-        <li>Do not share personal information online</li>
-        <li>Enable two-factor authentication</li>
-        <li>Keep software updated</li>
-        <li>Avoid suspicious links</li>
+        <li>Learn about <strong>Types of Threats</strong> like Phishing and Malware.</li>
+        <li>Follow our <strong>Safety Checklist</strong> for instant protection.</li>
+        <li>Understand <strong>Cyber Laws</strong> in India to know your rights.</li>
     </ul>
-</section>
-
-<section id="laws">
-    <h2>Cyber Laws Awareness</h2>
-    <p>Cyber laws help protect users from online crimes.</p>
-    <p>In India, cybercrime is handled under the IT Act 2000.</p>
-</section>
-
-<section id="contact">
-    <h2>Contact / Report Issue</h2>
-
-    <form>
-        <input type="text" placeholder="Enter your name" required>
-        <input type="email" placeholder="Enter your email" required>
-        <textarea rows="5" placeholder="Describe your issue"></textarea>
-        
-        <!-- Is section ko apne <body> tag ke andar jahan bhi aap checklist dikhana chahte hain, wahan paste karein -->
-        <section id="checklist" style="padding: 40px 20px; max-width: 800px; margin: auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    <h2 style="color: #0a0a23; text-align: center; border-bottom: 3px solid #0a0a23; padding-bottom: 10px;">
-        🛡️ Cyber Safety Checklist
-    </h2>
-    <p style="text-align: center; color: #555;">Internet par surakshit rehne ke liye in baaton ka dhyan rakhein:</p>
-
-    <div style="background: #fff; border-radius: 8px; shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 20px; border: 1px solid #ddd;">
-        <ul style="list-style-type: none; padding: 0;">
-            <li style="padding: 12px 0; border-bottom: 1px solid #eee; display: flex; align-items: center;">
-                <input type="checkbox" style="margin-right: 15px; transform: scale(1.5);">
-                <span><strong>Strong Passwords:</strong> Har account ke liye alag aur lamba password rakhein.</span>
-            </li>
-            <li style="padding: 12px 0; border-bottom: 1px solid #eee; display: flex; align-items: center;">
-                <input type="checkbox" style="margin-right: 15px; transform: scale(1.5);">
-                <span><strong>Two-Factor (2FA):</strong> Apne accounts mein 2-Factor Authentication zaroor on karein.</span>
-            </li>
-            <li style="padding: 12px 0; border-bottom: 1px solid #eee; display: flex; align-items: center;">
-                <input type="checkbox" style="margin-right: 15px; transform: scale(1.5);">
-                <span><strong>Update Software:</strong> Apne phone aur apps ko hamesha update rakhein.</span>
-            </li>
-            <li style="padding: 12px 0; border-bottom: 1px solid #eee; display: flex; align-items: center;">
-                <input type="checkbox" style="margin-right: 15px; transform: scale(1.5);">
-                <span><strong>Public Wi-Fi:</strong> Banking ya private kaam ke liye public Wi-Fi ka use na karein.</span>
-            </li>
-            <li style="padding: 12px 0; display: flex; align-items: center;">
-                <input type="checkbox" style="margin-right: 15px; transform: scale(1.5);">
-                <span><strong>Suspicious Links:</strong> Anjaan links ya attachments par click na karein.</span>
-            </li>
-        </ul>
-    </div>
-    <p style="margin-top: 20px; font-style: italic; color: #d32f2f; text-align: center;">
-        *Savdhani hi suraksha hai!*
-    </p>
-</section>
-        
-        <button type="submit">Submit</button>
-    </form>
-
-</section>
+</div>
 
 <footer>
-    <p>© 2026 Cybersecurity Awareness | Stay Safe Online</p>
+    <p>&copy; 2026 Cybersecurity Awareness Project</p>
 </footer>
 
-    
-
-
-    
 </body>
 </html>
